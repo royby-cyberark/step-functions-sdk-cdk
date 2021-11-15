@@ -1,5 +1,11 @@
 
 #  Step Functions SDK integrations - CDK example
+This is a simple example of using the Step Functions SDK integrations. 
+It deploys an S3 bucket, dynamodb table and the state machine (step function) including the needed permissions.
+On execution it will read an s3 object from your bucket (key is provided as input) and will write its content to a dynamodb item in your table, 
+
+## Usage 
+
 * Deploy
 * Create an S3 object in your bucket, note its name (e.g. input.dat).
 * Open your state machine in the Step Functions conole, click on start execute or new execution or whatever. set your input to:
