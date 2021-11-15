@@ -1,5 +1,16 @@
 
-# Welcome to your CDK Python project!
+#  Step Functions SDK integrations - CDK example
+* Deploy
+* Create an S3 object in your bucket, note its name (e.g. input.dat).
+* Open your state machine in the Step Functions conole, click on start execute or new execution or whatever. set your input to:
+```
+{
+  "key": "<Your S3 object name (e.g. input.dat>"    
+}
+```
+
+
+# CDK Readme
 
 This is a blank project for Python development with CDK.
 
